@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Artwork Preview | JoErl</title>
+    <link rel="preconnect" href="https://restcountries.com" crossorigin>
+    <meta name="robots" content="index, follow">
+    <meta name=" language" content="English">
+    <meta name="geo.region" content="GH">
+    <meta name="geo.placename" content="Accra">
+    <meta name="author" content="JoErl">
+    <link rel="stylesheet" href="cstyles/styles.css" />
+    <link rel="shortcut icon" href="https://res.cloudinary.com/dkds78kb3/image/upload/v1763886718/favicon_tlybg2.png"
+        type="image/png" />
+    <link rel="icon" href="https://res.cloudinary.com/dkds78kb3/image/upload/v1763886718/favicon_tlybg2.png"
+        type="image/png" />
+
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">Project<span>Preview</span></div>
+            <div class="security-notice">Preview • Review</div>
+        </div>
+    </header>
+
+    <main>
+        <div class="warning-message">
+            <strong>Note:</strong> Please
+            approve the design to receive high-resolution files.
+        </div>
+
+        <div class="artwork-container">
+            <div class="artwork-header">
+                <div class="artwork-title" id="currentArtworkTitle">S.I.V.O.N.S</div>
+                <div class="artwork-meta" id="currentArtworkMeta">Created: 23 Nov 2025 | Version: 1</div>
+            </div>
+
+            <div class="image-container" id="imageContainer">
+                <!-- Main image via JS -->
+                <div class="image-protection">
+                    <div class="protection-overlay"></div>
+                </div>
+            </div>
+
+            <div class="artwork-info">
+                <div class="artwork-description" id="currentArtworkDescription">
+                    This design incorporates your brand colors and reflects the modern aesthetic we discussed. The
+                    typography is clean and professional, suitable for both digital and print applications.
+                </div>
+                <div class="artwork-actions">
+                    <div class="navigation">
+                        <button class="btn btn-secondary" id="prevBtn">Previous</button>
+                        <button class="btn btn-secondary" id="nextBtn">Next</button>
+                    </div>
+                </div>
+            </div>
+
+            <h2>All Artworks</h2>
+            <div class="artwork-list" id="artworkList">
+                <!-- Thumbnails gen in JS -->
+            </div>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="logo">
+                <a href="https://joerl.pages.dev/">Joel Anang<span>.</span></a>
+            </div>
+            <p class="copyright">
+                Copyright &copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script>
+                All rights reserved
+            </p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top"></button>
+
+    <script src="cscript/scripts.js"></script>
+</body>
+
+</html>
