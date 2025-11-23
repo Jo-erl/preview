@@ -27,7 +27,7 @@
       const box = document.createElement('div');
       box.className = 'protection-alert';
       box.textContent =
-        'This content is protected. Screenshots and copying are restricted.';
+        'This content is protected. Screenshots are watermarked.';
 
       Object.assign(box.style, {
         position: 'fixed',
