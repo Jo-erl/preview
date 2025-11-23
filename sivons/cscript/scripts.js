@@ -60,29 +60,23 @@
     {
       id: 1,
       title: 'S.I.V.O.N.S Logo Recreated',
-      filename: '3.png',
+      filename: '2.jpg',
       date: '2025-11-23',
       version: '1',
-      description:
-        'This design incorporates your brand colors and reflects the modern aesthetic we discussed.',
     },
     {
       id: 2,
       title: 'S.I.V.O.N.S Flyer Design',
-      filename: '3.png',
+      filename: '1.jpg',
       date: '2025-11-23',
       version: '1',
-      description:
-        'A modern logo concept featuring geometric shapes and primary brand color.',
     },
     {
       id: 3,
       title: 'S.I.V.O.N.S Flyer Mockup',
-      filename: '3.png',
+      filename: '3.jpg',
       date: '2025-11-23',
       version: '1',
-      description:
-        'Complete social media package with templates optimized for all platforms.',
     },
   ];
 
